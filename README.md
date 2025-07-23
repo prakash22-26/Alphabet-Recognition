@@ -14,11 +14,7 @@ To get started:
    git clone https://github.com/prakash22-26/Alphabet-Recognition.git
    cd Alphabet-Recognition
 
-2. (Optional) Create and activate a virtual environment:
-   python -m venv venv
-   source venv/bin/activate  (on Windows: venv\Scripts\activate)
-
-3. Install required dependencies:
+2. Install required dependencies:
    pip install -r requirements.txt
 
 To run the Streamlit web app:
@@ -36,13 +32,13 @@ Input requirements:
 
 Project structure:
 Alphabet-Recognition/
-├── model.py                - Training script using TensorFlow/Keras
-├── streamlit_app.py        - Streamlit UI for prediction
-├── model_v2.keras          - Trained model file
+├── model.py                
+├── streamlit_app.py       
+├── model_v2.keras          
 ├── archive/
-│   └── alphabet-dataset/   - Dataset organized by A-Z
-├── requirements.txt        - List of dependencies
-└── README.md               - Project documentation
+│   └── alphabet-dataset/   
+├── requirements.txt        
+└── README.md              
 
 Dependencies:
 tensorflow
@@ -57,8 +53,13 @@ Dataset:
 - A-Z folders containing training images
 - Grayscale character images stored under: archive/alphabet-dataset/Train/
 
+## 📊 Model Evaluation
+
+The model achieved ~89% accuracy on the validation dataset.
+Here’s the training accuracy, loss, and classification report after training the CNN model:
+
+<img width="1172" height="843" alt="Screenshot 2025-07-23 170214" src="https://github.com/user-attachments/assets/4f7e1737-792d-4c6d-85ec-78b40e02bad8" />
+
+
 Author: Prakash Kumar Shah  
 GitHub: https://github.com/prakash22-26
-
-If you find this project helpful, feel free to ⭐️ star the repo!
-
