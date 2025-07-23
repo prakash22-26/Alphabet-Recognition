@@ -60,6 +60,9 @@ Here’s the training accuracy, loss, and classification report after training t
 
 <img width="1172" height="843" alt="Screenshot 2025-07-23 170214" src="https://github.com/user-attachments/assets/4f7e1737-792d-4c6d-85ec-78b40e02bad8" />
 
+Below is the training accuracy and loss visualization:
+
+<img width="1503" height="715" alt="Screenshot 2025-07-23 180316" src="https://github.com/user-attachments/assets/f25c32e5-c969-45e7-a6a5-ca7d45157112" />
 
 Author: Prakash Kumar Shah  
 GitHub: https://github.com/prakash22-26
